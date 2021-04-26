@@ -3,6 +3,26 @@
 The purpose of this repo is to load, map and transform United Nations General Assembly voting data.
 
 
+## Python environment and setup
+- Python3 is required
+- openpyxl is requried - https://pypi.org/project/openpyxl/
+```
+pip install openpyxl
+```
+- tableauhyperapi is required - https://pypi.org/project/tableauhyperapi/
+```
+ pip install tableauhyperapi
+```
+- pantab - https://pypi.org/project/pantab/
+```
+pip install pantab
+```
+My environment is running on a M1 Macbook Pro and the Tableau Hyper API is only supported on the x86 arch.  As a result my Python environment is running in x86 emulation mode via Homebrew, started via this command.
+```
+/usr/local/Cellar/ipython/7.22.0/bin/ipython notebook
+```
+
+
 ## Data Details
 There are 4 input files to the process:
 
@@ -22,3 +42,10 @@ This file is the look table of category level values
 ## Data pipeline to Tableau
 
 ## Cluster analysis
+
+## Visual Output
+Final dashboard outpit
+![UNVoting Dashboard](/docs/images/UNVoting.Dashboard.png)
+
+Country Cluster Analysis Visualized
+![Country Clusters](/docs/images/CountryClusters.png)
