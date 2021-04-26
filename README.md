@@ -13,7 +13,7 @@ pip install openpyxl
 ```
  pip install tableauhyperapi
 ```
-- pantab - https://pypi.org/project/pantab/
+- pantab is required - https://pypi.org/project/pantab/
 ```
 pip install pantab
 ```
