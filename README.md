@@ -28,14 +28,19 @@ There are 4 input files to the process:
 
 - Core UN Voting data
   - **path**: ./source_data/NortheasternExport4.xlsx
-  - **description**: This the main input file and the first sheet is read.  The ResolutionCode column is important is it's used later to merge the category data.  The VotingInformation column contains the string payload of votes by country.
+  - **description**: This the main input file and the first sheet is read.  The ResolutionCode column is important as it's used later to merge the category data.  The VotingInformation column contains the string payload of votes by country.  The column names are in MARC format (https://research.un.org/en/digitallibrary/export).  The column name mapping and definitions have been taken from the voting manual found here: https://www.un.org/depts/dhl/unbisref_manual/voting/voting.htm
 
--  ./source_data/GA Votes Working Document.xlsx - Top Level Sub level.csv
+- UN Resolution Code to Top / Sub Leve Code Mapping
+  - **path**: ./source_data/GA Votes Working Document.xlsx - Top Level Sub level.csv
+  - **description**: xxxx
 
-- ./source_data/GA Votes Working Document.xlsx - Top level Sub level description.csv
-This file is the look table of category level values
+- Category Lookup Table
+  - **path**: ./source_data/GA Votes Working Document.xlsx - Top level Sub level description.csv
+  - **description**: This file is the look table of category level values.
 
-- ./source_Data/Download-GDPcurrent-USD-countries.xlsx
+- GDP Data
+  - **path**: ./source_Data/Download-GDPcurrent-USD-countries.xlsx
+  - **description**: Yearly GDP data in USD by country code.
 
 ## Data processing methodology
 
