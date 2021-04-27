@@ -27,8 +27,8 @@ My environment is running on a M1 Macbook Pro and the Tableau Hyper API is only 
 There are 4 input files to the process:
 
 - Core UN Voting data
- - *path*: ./source_data/NortheasternExport4.xlsx
- - *description*: This the main input file and the first sheet is read.  The ResolutionCode column is important is it's used later to merge the category data.  The VotingInformation column contains the string payload of votes by country.
+  - **path**: ./source_data/NortheasternExport4.xlsx
+  - **description**: This the main input file and the first sheet is read.  The ResolutionCode column is important is it's used later to merge the category data.  The VotingInformation column contains the string payload of votes by country.
 
 -  ./source_data/GA Votes Working Document.xlsx - Top Level Sub level.csv
 
