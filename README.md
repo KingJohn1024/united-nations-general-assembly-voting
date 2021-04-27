@@ -32,15 +32,15 @@ There are 4 input files to the process:
 
 - UN Resolution Code to Top / Sub Leve Code Mapping
   - **path**: ./source_data/GA Votes Working Document.xlsx - Top Level Sub level.csv
-  - **description**: xxxx
+  - **description**: This is the mapping of UN Resolution code to category values.
 
 - Category Lookup Table
   - **path**: ./source_data/GA Votes Working Document.xlsx - Top level Sub level description.csv
-  - **description**: This file is the look table of category level values.
+  - **description**: This file is the lookup table of category level values.
 
 - GDP Data
   - **path**: ./source_Data/Download-GDPcurrent-USD-countries.xlsx
-  - **description**: Yearly GDP data in USD by country code.
+  - **description**: GDP data by country, year taken from the UN stats site here: https://unstats.un.org/unsd/snaama/Downloads.  GDP is broken down at it's currenct price in US Dollars for all countries for all years, sorted alphabetically.
 
 ## Data processing methodology
 
