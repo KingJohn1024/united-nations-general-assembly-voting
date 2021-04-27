@@ -51,13 +51,17 @@ The Tableau Hyper file format is used as it provides superior speed and compress
 
 ## Visual Output
 Final dashboard outpit
+
 ![UNVoting Dashboard](/docs/images/UNVoting.Dashboard.png)
 
-A
+GDP x US Voting Coincidence
+
 ![GDP x US Voting Coincidence](/docs/images/GDPxUSAVotingCoincidence.png)
 
 Country Clusters
+
 ![Country Clusters](/docs/images/GDPxUSAVotingCoincidence.Clusters.png)
 
 Country Cluster - Geographical
+
 ![Country Clusters](/docs/images/CountryClusters.png)
