@@ -54,7 +54,7 @@ Final dashboard outpit
 ![UNVoting Dashboard](/docs/images/UNVoting.Dashboard.png)
 
 GDP x US Voting Coincidence
-![GDP x US Voting Coincidence](/docs/images/GDPxUSAVotingCoincidence.png)
+![GPD](/docs/images/GDPxUSAVotingCoincidence.png)
 
 Country Clusters
 ![Country Clusters](/docs/images/GDPxUSAVotingCoincidence.Clusters.png)
