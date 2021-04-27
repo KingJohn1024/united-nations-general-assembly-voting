@@ -53,5 +53,14 @@ The Tableau Hyper file format is used as it provides superior speed and compress
 Final dashboard outpit
 ![UNVoting Dashboard](/docs/images/UNVoting.Dashboard.png)
 
-Country Cluster Analysis Visualized
+GDP x US Voting Coincidence
+![GDP x US Voting Coincidence](/docs/images/GDPxUSVotingCoincidence.png)
+
+Elbow Method for optimal K
+![Elbow Method for optimal K](/docs/images/ElbowMethod.png)
+
+Country Clusters
+![Country Clusters](/docs/images/GDPxUSVotingCoincidence.Clusters.png)
+
+Country Cluster - Geographical
 ![Country Clusters](/docs/images/CountryClusters.png)
