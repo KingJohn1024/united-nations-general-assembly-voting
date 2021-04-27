@@ -46,15 +46,12 @@ There are 4 input files to the process:
   - **description**: GDP data by country, year taken from the UN stats site here: https://unstats.un.org/unsd/snaama/Downloads.  GDP is broken down at it's currenct price in US Dollars for all countries for all years, sorted alphabetically.
   - **data processing**: No processing other than filter for just GDP is applied here.
 
-## Data processing methodology
-- Core UN Voting data
-
-- UN 
 
 ## Data pipeline to Tableau
 The Tableau Hyper file format is used as it provides superior speed and compression over the original output csv files.  The current code writes out a single UNVotingData.hyper file that is consumed as the data source within the UNVoting.twb file.  The singe Hyper file contains 3 tablues - VoteInfo, Categories & VoteScore.  VoteInfo and Categories have a multilevel relationiship defined on TopLevel / SubLevel.  VoteInfo and VoteScore have a single level relatinship on ID.  The VotingCoincidence is calculated and defained as *sum([Score]) / count([Score])*.  This allows for the measure to recomputed on the fly while the user adjustes Tableau filters and descriptive classification levels.
 
 ## Cluster analysis
+The kMeans algorithm was used as an unsupervised learning technique in an attempt to identifer clusters of countries.  The intent was to identify a relationship between GDP and US Voting Coincidence.  An elbow method was run to identify the optimal value for K.  The model was run for n_clusters=4 and illistrates an interesting relationship between a country's GDP and their level of US Voting Coincidence.
 
 ## Visual Output
 Final dashboard outpit
