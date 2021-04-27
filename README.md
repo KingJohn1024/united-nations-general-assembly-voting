@@ -54,7 +54,7 @@ The Tableau Hyper file format is used as it provides superior speed and compress
 The kMeans algorithm was used as an unsupervised learning technique in an attempt to identifer clusters of countries.  The intent was to identify a relationship between GDP and US Voting Coincidence.  An elbow method was run to identify the optimal value for K.  The model was run for n_clusters=4 and illistrates an interesting relationship between a country's GDP and their level of US Voting Coincidence.
 
 ## Visual Output
-Final dashboard outpit
+Final dashboard output
 
 ![UNVoting Dashboard](/docs/images/UNVoting.Dashboard.png)
 
