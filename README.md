@@ -19,7 +19,7 @@ pip install pantab
 ```
 My environment is running on a M1 Macbook Pro and the Tableau Hyper API is only supported on the x86 arch.  As a result my Python environment is running in x86 emulation mode via Homebrew, started via this command.
 ```
-/usr/local/Cellar/ipython/7.22.0/bin/ipython notebook
+/usr/local/Cellar/ipython/7.23.0/bin/ipython notebook
 ```
 
 
